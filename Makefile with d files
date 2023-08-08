@@ -3,7 +3,7 @@ CODEDIRS = .
 INCDIRS = .
 
 CC = gcc
-OPT = -O0
+OPT = -g -O0
 DEPFLAGS = -MP -MD
 # CFLAGS=-Wall -Wextra -Werror -g $(foreach D,$(INCDIRS),-I$(D)) $(OPT) $(DEPFLAGS)
 CFLAGS = -g $(foreach D,$(INCDIRS),-I$(D)) $(OPT) $(DEPFLAGS)
